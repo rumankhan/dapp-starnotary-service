@@ -1,9 +1,10 @@
-**PROJECT: Decentralized Star Notary Service Project** 
+### Decentralized Star Notary Service Project
+
 This project built using boilerplate template provided by Udacity and is part of assessment for creating a decentralized application
 
-### ERC-721 Token Name: High Five Token
-### ERC-721 Token Symbol: HFT
-### Contract Address on Rinkeby Network: 0xC32A1e3F940A09191474a4791BB0B9652820034B (https://rinkeby.etherscan.io/address/0xC32A1e3F940A09191474a4791BB0B9652820034B)
+#### ERC-721 Token Name: High Five Token
+#### ERC-721 Token Symbol: HFT
+#### Contract Address on Rinkeby Network: 0xC32A1e3F940A09191474a4791BB0B9652820034B (https://rinkeby.etherscan.io/address/0xC32A1e3F940A09191474a4791BB0B9652820034B)
 
 ### Dependencies
 For this project, you will need to have:
@@ -68,11 +69,6 @@ cd app
 npm run dev
 ```
 ### Rinekby Testnet
-For Rinkeyby Test Network, you will have to provide:
-
-| Network Name | New RPC URL | Chain ID |
-|---|---|---|
-|Private Network 1|`http://127.0.0.1:9545/`|1337 |
-You will also need infurakey and metamaskseed (used in truffle-config.js):
+For Rinkeyby Test Network, you will need infurakey and metamaskseed (used in truffle-config.js):
 infuraKey -  If you havent already done, create account in https://infura.io/ and create a project and use the project id key for Rinkeby
 metamaskseed - This is the secret seed you would have copied when creating metamask account
